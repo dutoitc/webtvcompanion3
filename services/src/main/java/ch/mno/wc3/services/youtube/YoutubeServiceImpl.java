@@ -7,6 +7,7 @@ import ch.mno.wc3.services.youtube.queries.VideoStatusById2Query;
 import com.google.api.services.youtube.YouTube;
 import com.google.api.services.youtube.model.Video;
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 
@@ -17,9 +18,10 @@ import java.util.List;
 
 @Service
 @AllArgsConstructor
+@NoArgsConstructor
 public class YoutubeServiceImpl implements YoutubeService {
 
-    private final WebClient webClient;
+    private WebClient webClient;
     private YoutubeConfig config;
 
     private YouTube youtubeService;
