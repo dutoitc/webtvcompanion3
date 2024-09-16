@@ -1,4 +1,4 @@
-package ch.mno.wc3.services.sandbox;
+package ch.mno.wc3.services.facebook;
 
 import ch.mno.wc3.services.facebook.data.FBVideosJson;
 import com.fasterxml.jackson.databind.ObjectMapper;
