@@ -1,0 +1,888 @@
+{
+  "data": [
+    {
+      "name": "total_video_views",
+      "values": [
+        {
+          "value": 1357
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_views/lifetime"
+    },
+    {
+      "name": "total_video_views_unique",
+      "values": [
+        {
+          "value": 1147
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_views_unique/lifetime"
+    },
+    {
+      "name": "total_video_views_autoplayed",
+      "values": [
+        {
+          "value": 1331
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_views_autoplayed/lifetime"
+    },
+    {
+      "name": "total_video_views_clicked_to_play",
+      "values": [
+        {
+          "value": 26
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_views_clicked_to_play/lifetime"
+    },
+    {
+      "name": "total_video_views_organic",
+      "values": [
+        {
+          "value": 1357
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_views_organic/lifetime"
+    },
+    {
+      "name": "total_video_views_organic_unique",
+      "values": [
+        {
+          "value": 1147
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_views_organic_unique/lifetime"
+    },
+    {
+      "name": "total_video_views_paid",
+      "values": [
+        {
+          "value": 0
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_views_paid/lifetime"
+    },
+    {
+      "name": "total_video_views_paid_unique",
+      "values": [
+        {
+          "value": 0
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_views_paid_unique/lifetime"
+    },
+    {
+      "name": "total_video_views_sound_on",
+      "values": [
+        {
+          "value": 377
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_views_sound_on/lifetime"
+    },
+    {
+      "name": "total_video_views_by_distribution_type",
+      "values": [
+        {
+          "value": {
+            "page_owned": 304,
+            "shared": 1053
+          }
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_views_by_distribution_type/lifetime"
+    },
+    {
+      "name": "total_video_view_time_by_distribution_type",
+      "values": [
+        {
+          "value": {
+            "page_owned": 10069762,
+            "shared": 27345801
+          }
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_view_time_by_distribution_type/lifetime"
+    },
+    {
+      "name": "total_video_view_time_by_country_id",
+      "values": [
+        {
+          "value": {
+            "Switzerland (CH)": 578,
+            "France (FR)": 12,
+            "Mali (ML)": 6,
+            "Cambodia (KH)": 4,
+            "Vietnam (VN)": 4,
+            "Canada (CA)": 4,
+            "United States (US)": 4,
+            "Portugal (PT)": 3,
+            "Guinea (GN)": 2,
+            "Germany (DE)": 0,
+            "Italy (IT)": 0,
+            "Belgium (BE)": 0,
+            "Spain (ES)": 0,
+            "Thailand (TH)": 0,
+            "Denmark (DK)": 0,
+            "Japan (JP)": 0,
+            "Algeria (DZ)": 0,
+            "Kosovo (XK)": 0,
+            "Albania (AL)": 0,
+            "United Kingdom (GB)": 0,
+            "Greece (GR)": 0,
+            "Romania (RO)": 0,
+            "Morocco (MA)": 0,
+            "Netherlands (NL)": 0,
+            "Costa Rica (CR)": 0,
+            "South Africa (ZA)": 0,
+            "Tunisia (TN)": 0,
+            "Macedonia (MK)": 0,
+            "Finland (FI)": 0,
+            "Norway (NO)": 0,
+            "Poland (PL)": 0,
+            "Sweden (SE)": 0,
+            "Haiti (HT)": 0,
+            "Côte d'Ivoire (CI)": 0,
+            "Egypt (EG)": 0,
+            "Brazil (BR)": 0
+          }
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_view_time_by_country_id/lifetime"
+    },
+    {
+      "name": "total_video_view_time_by_region_id",
+      "values": [
+        {
+          "value": {
+            "Vaud - Switzerland": 32214055,
+            "Fribourg - Switzerland": 608630,
+            "Valais - Switzerland": 525142,
+            "Neuchâtel - Switzerland": 435254,
+            "Bamako - Mali": 393516,
+            "Canton of Geneva - Switzerland": 358933,
+            "Ticino - Switzerland": 270959,
+            "Siem Reap Province - Cambodia": 263445,
+            "Ho Chi Minh City - Vietnam": 263445,
+            "Quebec - Canada": 241168,
+            "Franche-Comté - France": 222930,
+            "Aveiro District - Portugal": 194171,
+            "Bern - Switzerland": 192981,
+            "Kindia Region - Guinea": 125836,
+            "Illinois - United States": 123201,
+            "Bourgogne - France": 123182,
+            "Rhône-Alpes - France": 80746,
+            "Champagne-Ardenne - France": 72052,
+            "New York - United States": 70587,
+            "Languedoc-Roussillon - France": 62996,
+            "Baden-Württemberg - Germany": 55913,
+            "Bretagne - France": 53892,
+            "Provence-Alpes-Côte d'Azur - France": 51403,
+            "Jura - Switzerland": 41453,
+            "Florida - United States": 38589,
+            "Midi-Pyrénées - France": 37582,
+            "Zürich - Switzerland": 25462,
+            "Phuket - Thailand": 14982,
+            "Alsace - France": 14116,
+            "Leiria District - Portugal": 14092,
+            "Aquitaine - France": 12172,
+            "Île-de-France - France": 11334,
+            "Braga District - Portugal": 10726,
+            "Flemish Region - Belgium": 10585,
+            "Comunidad Valenciana - Spain": 10320,
+            "Wallonia - Belgium": 7337,
+            "Sardinia - Italy": 7277,
+            "Ontario - Canada": 7071,
+            "Emilia-Romagna - Italy": 6410,
+            "Blida Province - Algeria": 6376,
+            "Pays de la Loire - France": 6311,
+            "California - United States": 5516,
+            "Kosovo - Kosovo": 5302,
+            "Maryland - United States": 5198,
+            "Durrës County - Albania": 4900
+          }
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_view_time_by_region_id/lifetime"
+    },
+    {
+      "name": "total_video_view_time_by_age_bucket_and_gender",
+      "values": [
+        {
+          "value": {
+            "F.13-17": 16967,
+            "M.13-17": 174,
+            "F.18-24": 288518,
+            "M.18-24": 77821,
+            "U.25-34": 121748,
+            "F.25-34": 1584698,
+            "M.25-34": 853578,
+            "U.35-44": 13108,
+            "F.35-44": 3433316,
+            "M.35-44": 1942262,
+            "U.45-54": 15204,
+            "F.45-54": 5365185,
+            "M.45-54": 2134854,
+            "U.55-64": 77152,
+            "F.55-64": 7106661,
+            "M.55-64": 3422578,
+            "U.65+": 893,
+            "F.65+": 7308806,
+            "M.65+": 3652040
+          }
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_view_time_by_age_bucket_and_gender/lifetime"
+    },
+    {
+      "name": "total_video_play_count",
+      "values": [
+        {
+          "value": 3781
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_play_count/lifetime"
+    },
+    {
+      "name": "total_video_consumption_rate",
+      "values": [
+        {
+          "value": 0.33975118483412
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_consumption_rate/lifetime"
+    },
+    {
+      "name": "total_video_complete_views",
+      "values": [
+        {
+          "value": 34
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_complete_views/lifetime"
+    },
+    {
+      "name": "total_video_complete_views_unique",
+      "values": [
+        {
+          "value": 34
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_complete_views_unique/lifetime"
+    },
+    {
+      "name": "total_video_complete_views_auto_played",
+      "values": [
+        {
+          "value": 32
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_complete_views_auto_played/lifetime"
+    },
+    {
+      "name": "total_video_complete_views_clicked_to_play",
+      "values": [
+        {
+          "value": 2
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_complete_views_clicked_to_play/lifetime"
+    },
+    {
+      "name": "total_video_complete_views_organic",
+      "values": [
+        {
+          "value": 34
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_complete_views_organic/lifetime"
+    },
+    {
+      "name": "total_video_complete_views_organic_unique",
+      "values": [
+        {
+          "value": 34
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_complete_views_organic_unique/lifetime"
+    },
+    {
+      "name": "total_video_complete_views_paid",
+      "values": [
+        {
+          "value": 0
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_complete_views_paid/lifetime"
+    },
+    {
+      "name": "total_video_complete_views_paid_unique",
+      "values": [
+        {
+          "value": 0
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_complete_views_paid_unique/lifetime"
+    },
+    {
+      "name": "total_video_60s_excludes_shorter_views",
+      "values": [
+        {
+          "value": 119
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_60s_excludes_shorter_views/lifetime"
+    },
+    {
+      "name": "total_video_30s_views",
+      "values": [
+        {
+          "value": 232
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_30s_views/lifetime"
+    },
+    {
+      "name": "total_video_30s_views_unique",
+      "values": [
+        {
+          "value": 220
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_30s_views_unique/lifetime"
+    },
+    {
+      "name": "total_video_30s_views_auto_played",
+      "values": [
+        {
+          "value": 224
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_30s_views_auto_played/lifetime"
+    },
+    {
+      "name": "total_video_30s_views_clicked_to_play",
+      "values": [
+        {
+          "value": 8
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_30s_views_clicked_to_play/lifetime"
+    },
+    {
+      "name": "total_video_30s_views_organic",
+      "values": [
+        {
+          "value": 232
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_30s_views_organic/lifetime"
+    },
+    {
+      "name": "total_video_30s_views_paid",
+      "values": [
+        {
+          "value": 0
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_30s_views_paid/lifetime"
+    },
+    {
+      "name": "total_video_10s_views",
+      "values": [
+        {
+          "value": 487
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_10s_views/lifetime"
+    },
+    {
+      "name": "total_video_10s_views_unique",
+      "values": [
+        {
+          "value": 435
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_10s_views_unique/lifetime"
+    },
+    {
+      "name": "total_video_10s_views_auto_played",
+      "values": [
+        {
+          "value": 467
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_10s_views_auto_played/lifetime"
+    },
+    {
+      "name": "total_video_10s_views_clicked_to_play",
+      "values": [
+        {
+          "value": 20
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_10s_views_clicked_to_play/lifetime"
+    },
+    {
+      "name": "total_video_10s_views_organic",
+      "values": [
+        {
+          "value": 487
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_10s_views_organic/lifetime"
+    },
+    {
+      "name": "total_video_10s_views_paid",
+      "values": [
+        {
+          "value": 0
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_10s_views_paid/lifetime"
+    },
+    {
+      "name": "total_video_10s_views_sound_on",
+      "values": [
+        {
+          "value": 182
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_10s_views_sound_on/lifetime"
+    },
+    {
+      "name": "total_video_15s_views",
+      "values": [
+        {
+          "value": 361
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_15s_views/lifetime"
+    },
+    {
+      "name": "total_video_retention_graph",
+      "values": [
+        {
+          "value": {
+            "0": 0.9698,
+            "1": 0.4746,
+            "2": 0.2601,
+            "3": 0.1872,
+            "4": 0.1503,
+            "5": 0.1268,
+            "6": 0.1098,
+            "7": 0.0965,
+            "8": 0.0811,
+            "9": 0.0693,
+            "10": 0.0531,
+            "11": 0.0464,
+            "12": 0.045,
+            "13": 0.042,
+            "14": 0.0427,
+            "15": 0.0405,
+            "16": 0.0361,
+            "17": 0.0354,
+            "18": 0.0346,
+            "19": 0.0287,
+            "20": 0.0258,
+            "21": 0.0258,
+            "22": 0.0258,
+            "23": 0.0228,
+            "24": 0.0243,
+            "25": 0.0273,
+            "26": 0.0243,
+            "27": 0.0214,
+            "28": 0.0206,
+            "29": 0.0199,
+            "30": 0.0162,
+            "31": 0.0192,
+            "32": 0.014,
+            "33": 0.014,
+            "34": 0.0177,
+            "35": 0.0169,
+            "36": 0.0155,
+            "37": 0.0177,
+            "38": 0.0177,
+            "39": 0.014,
+            "40": 0.0103
+          }
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_retention_graph/lifetime"
+    },
+    {
+      "name": "total_video_retention_graph_autoplayed",
+      "values": [
+        {
+          "value": {
+            "0": 0.9715,
+            "1": 0.4726,
+            "2": 0.2562,
+            "3": 0.1833,
+            "4": 0.145,
+            "5": 0.1232,
+            "6": 0.1067,
+            "7": 0.0939,
+            "8": 0.0796,
+            "9": 0.0684,
+            "10": 0.0518,
+            "11": 0.0458,
+            "12": 0.0436,
+            "13": 0.0406,
+            "14": 0.0421,
+            "15": 0.0398,
+            "16": 0.0353,
+            "17": 0.0346,
+            "18": 0.0331,
+            "19": 0.0263,
+            "20": 0.0248,
+            "21": 0.0248,
+            "22": 0.0248,
+            "23": 0.0218,
+            "24": 0.021,
+            "25": 0.024,
+            "26": 0.0218,
+            "27": 0.0195,
+            "28": 0.0188,
+            "29": 0.0173,
+            "30": 0.015,
+            "31": 0.018,
+            "32": 0.0135,
+            "33": 0.0135,
+            "34": 0.0173,
+            "35": 0.0158,
+            "36": 0.0135,
+            "37": 0.0158,
+            "38": 0.0165,
+            "39": 0.0128,
+            "40": 0.009
+          }
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_retention_graph_autoplayed/lifetime"
+    },
+    {
+      "name": "total_video_retention_graph_clicked_to_play",
+      "values": [
+        {
+          "value": {
+            "0": 0.8846,
+            "1": 0.5769,
+            "2": 0.4615,
+            "3": 0.3846,
+            "4": 0.4231,
+            "5": 0.3077,
+            "6": 0.2692,
+            "7": 0.2308,
+            "8": 0.1538,
+            "9": 0.1154,
+            "10": 0.1154,
+            "11": 0.0769,
+            "12": 0.1154,
+            "13": 0.1154,
+            "14": 0.0769,
+            "15": 0.0769,
+            "16": 0.0769,
+            "17": 0.0769,
+            "18": 0.1154,
+            "19": 0.1538,
+            "20": 0.0769,
+            "21": 0.0769,
+            "22": 0.0769,
+            "23": 0.0769,
+            "24": 0.1923,
+            "25": 0.1923,
+            "26": 0.1538,
+            "27": 0.1154,
+            "28": 0.1154,
+            "29": 0.1538,
+            "30": 0.0769,
+            "31": 0.0769,
+            "32": 0.0385,
+            "33": 0.0385,
+            "34": 0.0385,
+            "35": 0.0769,
+            "36": 0.1154,
+            "37": 0.1154,
+            "38": 0.0769,
+            "39": 0.0769,
+            "40": 0.0769
+          }
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_retention_graph_clicked_to_play/lifetime"
+    },
+    {
+      "name": "total_video_retention_graph_gender_male",
+      "values": [
+        {
+          "value": {
+            "0": 0.9733,
+            "1": 0.4378,
+            "2": 0.2289,
+            "3": 0.1822,
+            "4": 0.1511,
+            "5": 0.1244,
+            "6": 0.1044,
+            "7": 0.1,
+            "8": 0.0844,
+            "9": 0.0756,
+            "10": 0.0511,
+            "11": 0.0422,
+            "12": 0.04,
+            "13": 0.0333,
+            "14": 0.0333,
+            "15": 0.0333,
+            "16": 0.0267,
+            "17": 0.0222,
+            "18": 0.02,
+            "19": 0.0178,
+            "20": 0.0156,
+            "21": 0.0156,
+            "22": 0.0156,
+            "23": 0.0156,
+            "24": 0.0133,
+            "25": 0.0156,
+            "26": 0.0178,
+            "27": 0.0133,
+            "28": 0.0133,
+            "29": 0.0089,
+            "30": 0.0067,
+            "31": 0.0133,
+            "32": 0.0089,
+            "33": 0.0067,
+            "34": 0.0067,
+            "35": 0.0111,
+            "36": 0.0111,
+            "37": 0.0089,
+            "38": 0.0089,
+            "39": 0.0111,
+            "40": 0.0089
+          }
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_retention_graph_gender_male/lifetime"
+    },
+    {
+      "name": "total_video_retention_graph_gender_female",
+      "values": [
+        {
+          "value": {
+            "0": 0.9677,
+            "1": 0.4939,
+            "2": 0.2759,
+            "3": 0.1891,
+            "4": 0.1491,
+            "5": 0.1279,
+            "6": 0.1123,
+            "7": 0.0945,
+            "8": 0.079,
+            "9": 0.0656,
+            "10": 0.0534,
+            "11": 0.0478,
+            "12": 0.0467,
+            "13": 0.0456,
+            "14": 0.0467,
+            "15": 0.0434,
+            "16": 0.04,
+            "17": 0.0423,
+            "18": 0.0423,
+            "19": 0.0345,
+            "20": 0.0311,
+            "21": 0.0311,
+            "22": 0.0311,
+            "23": 0.0267,
+            "24": 0.03,
+            "25": 0.0334,
+            "26": 0.0278,
+            "27": 0.0256,
+            "28": 0.0245,
+            "29": 0.0256,
+            "30": 0.0211,
+            "31": 0.0222,
+            "32": 0.0167,
+            "33": 0.0178,
+            "34": 0.0234,
+            "35": 0.02,
+            "36": 0.0178,
+            "37": 0.0222,
+            "38": 0.0222,
+            "39": 0.0156,
+            "40": 0.0111
+          }
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_retention_graph_gender_female/lifetime"
+    },
+    {
+      "name": "total_video_avg_time_watched",
+      "values": [
+        {
+          "value": 9895
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_avg_time_watched/lifetime"
+    },
+    {
+      "name": "total_video_view_total_time",
+      "values": [
+        {
+          "value": 37415563
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_view_total_time/lifetime"
+    },
+    {
+      "name": "total_video_view_total_time_organic",
+      "values": [
+        {
+          "value": 37415563
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_view_total_time_organic/lifetime"
+    },
+    {
+      "name": "total_video_view_total_time_paid",
+      "values": [
+        {
+          "value": 0
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_view_total_time_paid/lifetime"
+    },
+    {
+      "name": "total_video_impressions",
+      "values": [
+        {
+          "value": 3960
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_impressions/lifetime"
+    },
+    {
+      "name": "total_video_impressions_unique",
+      "values": [
+        {
+          "value": 3376
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_impressions_unique/lifetime"
+    },
+    {
+      "name": "total_video_impressions_paid_unique",
+      "values": [
+        {
+          "value": 0
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_impressions_paid_unique/lifetime"
+    },
+    {
+      "name": "total_video_impressions_paid",
+      "values": [
+        {
+          "value": 0
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_impressions_paid/lifetime"
+    },
+    {
+      "name": "total_video_impressions_organic_unique",
+      "values": [
+        {
+          "value": 60
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_impressions_organic_unique/lifetime"
+    },
+    {
+      "name": "total_video_impressions_organic",
+      "values": [
+        {
+          "value": 72
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_impressions_organic/lifetime"
+    },
+    {
+      "name": "total_video_impressions_viral_unique",
+      "values": [
+        {
+          "value": 3334
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_impressions_viral_unique/lifetime"
+    },
+    {
+      "name": "total_video_impressions_viral",
+      "values": [
+        {
+          "value": 3888
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_impressions_viral/lifetime"
+    },
+    {
+      "name": "total_video_impressions_fan_unique",
+      "values": [
+        {
+          "value": 301
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_impressions_fan_unique/lifetime"
+    },
+    {
+      "name": "total_video_impressions_fan",
+      "values": [
+        {
+          "value": 456
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_impressions_fan/lifetime"
+    },
+    {
+      "name": "total_video_impressions_fan_paid_unique",
+      "values": [
+        {
+          "value": 0
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_impressions_fan_paid_unique/lifetime"
+    },
+    {
+      "name": "total_video_impressions_fan_paid",
+      "values": [
+        {
+          "value": 0
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_impressions_fan_paid/lifetime"
+    },
+    {
+      "name": "total_video_stories_by_action_type",
+      "values": [
+        {
+          "value": {
+            "share": 24,
+            "like": 46,
+            "comment": 7
+          }
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_stories_by_action_type/lifetime"
+    },
+    {
+      "name": "total_video_reactions_by_type_total",
+      "values": [
+        {
+          "value": {
+            "like": 36,
+            "love": 10
+          }
+        }
+      ],
+      "id": "1669578873436310/video_insights/total_video_reactions_by_type_total/lifetime"
+    }
+  ]
+}

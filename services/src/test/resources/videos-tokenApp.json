@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+      "status": {
+        "publishing_phase": {
+          "status": "complete",
+          "publish_status": "published",
+          "publish_time": "2024-09-13T09:00:26+0000"
+        }
+      },
+      "description": "lorem ipsum",
+      "id": "9238532507282706"
+    },
+    {
+      "status": {
+        "publishing_phase": {
+          "status": "complete",
+          "publish_status": "published",
+          "publish_time": "2024-09-06T09:13:21+0000"
+        }
+      },
+      "description": "ipsum ipsodec",
+      "id": "3440956547696170"
+    },
+    {
+      "status": {
+        "publishing_phase": {
+          "status": "complete",
+          "publish_status": "published",
+          "publish_time": "2024-09-06T09:13:21+0000"
+        }
+      },
+      "note": "no description: must be ignored",
+      "id": "555956547696170"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "name": "total_video_views",
+      "period": "lifetime",
+      "values": [
+        {
+          "value": 1357
+        }
+      ],
+      "title": "Total des vues de vidéos global",
+      "description": "Global : nombre total de fois où votre vidéo a été visionnée pendant 3 secondes ou jusqu’à la fin, selon ce qui se produit en premier. (Total)",
+      "id": "9669578873436310/video_insights/total_video_views/lifetime"
+    }
+  ]
+}

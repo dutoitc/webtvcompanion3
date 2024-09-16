@@ -1,0 +1,26 @@
+
+    void publishLater() {
+        // curl -i -X POST "https://graph.facebook.com/{page-id}/feed
+        //  ?published=false
+        //  &message=A scheduled post
+        //  &scheduled_publish_time={unix-time-stamp-of-a-future-date}
+        //  &access_token={page-access-token}"
+        //
+        // require pages_manage_posts, pages_read_engagement, auth tâche CREATE_CONTENT
+        // 10'-75j
+
+        //{
+        //  "id": "{page-post-id}"
+        //}
+    }
+
+
+    public void upload(File fVideo, String title, String description, String hashtags) {
+
+    }
+
+
+
+    // /video_lists  (type de vidéos, mystex, rb, ... avec ids)
+    // /webtvnordvaudois/feed  (token page access)
+    // webtvnordvaudois/feed?fields=id,admin_creator,attachments,child_attachments,created_time,from,icon,full_picture,instagram_eligibility,is_expired,is_hidden,is_published,message,permalink_url,place,privacy,properties,sheduled_publish_time,shares,status_type,story_tags,parent_id
