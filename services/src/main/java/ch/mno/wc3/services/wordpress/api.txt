@@ -1,0 +1,16 @@
+https://developer.wordpress.org/rest-api/reference/posts/#example-request
+
+https://xxx/wp-json/wp/v2/posts
+ ? status=published
+ ? page=... per_page=...
+
+
+ create post
+ // POST /wp/v2/posts
+         // ?status=future
+         // ?title=...
+         // ?content=...
+         // https://developer.wordpress.org/rest-api/reference/posts/#example-request
+
+ get posts
+        // GET /wp/v2/posts/id
