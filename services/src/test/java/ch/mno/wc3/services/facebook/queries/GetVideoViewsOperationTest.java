@@ -4,8 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class GetVideoViewsOperationTest  extends AbstractOperationTest {
-
+class GetVideoViewsOperationTest extends AbstractOperationTest {
 
     @Test
     void testExecute_returnsCorrectValue() {

@@ -9,4 +9,5 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan(basePackages = "ch.mno.wc3")
 public class TestConfig {
 
+
 }

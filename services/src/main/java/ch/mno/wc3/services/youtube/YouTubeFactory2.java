@@ -10,8 +10,10 @@ import com.google.auth.http.HttpCredentialsAdapter;
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.auth.oauth2.ServiceAccountCredentials;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.security.GeneralSecurityException;
 import java.util.Arrays;
 import java.util.Collection;
@@ -31,9 +33,15 @@ public class YouTubeFactory2 {
      * @param clientSecrets
      */
     public YouTube build(String applicationName, String clientSecrets) throws GeneralSecurityException, IOException {
+        InputStream is;
+        if (new File(clientSecrets).exists()) {
+            is = new FileInputStream(clientSecrets);
+        } else {
+            is = getClass().getResourceAsStream("/" + clientSecrets); // for tests
+        }
 
         // https://github.com/googleapis/google-auth-library-java
-        GoogleCredentials credentials = ServiceAccountCredentials.fromStream(new FileInputStream(clientSecrets));
+        GoogleCredentials credentials = ServiceAccountCredentials.fromStream(is);
         credentials = credentials.createScoped(SCOPES);
         credentials.refreshIfExpired();
 

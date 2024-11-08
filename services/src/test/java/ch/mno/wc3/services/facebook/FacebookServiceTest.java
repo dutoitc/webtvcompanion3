@@ -15,7 +15,7 @@ public class FacebookServiceTest {
     private final ObjectMapper objectMapper = new ObjectMapper();
 
     @Test
-    public void testConvertJsonToObject() throws IOException {
+    void testConvertJsonToObject() throws IOException {
         // Read JSON
         InputStream jsonStream = getClass().getResourceAsStream("/fbvideos.json");
         assertNotNull(jsonStream, "fbvideos.json could not be found");

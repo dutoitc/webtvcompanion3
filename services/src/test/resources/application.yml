@@ -1,0 +1,17 @@
+
+
+facebook:
+  app-id: fbapp
+  token-app: tokenapp
+  token-page: tokenpage
+  video-blacklist: 111,222
+youtube:
+  chanelId: ytchan
+  applicationName: ytapp
+  clientSecretsFile: youtube-test-secrets.json
+instagram:
+  instagramId: 123
+  accessToken: igtoken
+  video-blacklist: 122,211
+wordpress:
+  base-url: https://localhost/wp/
