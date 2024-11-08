@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties(prefix = "facebook")
 @Getter
-@Builder
+@Setter
 @AllArgsConstructor // Needed by Builder
 @NoArgsConstructor // Needed by ConfigurationProperties
 public class FacebookConfig {

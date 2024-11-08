@@ -10,11 +10,10 @@ class GetVideoOperationTest extends AbstractOperationTest {
 
     @Test
     void testExecute_returnsCorrectValue() {
-        FacebookConfig config = FacebookConfig.builder()
-                .appId("appId")
-                .tokenApp("tokenApp")
-                .tokenPage("tokenPage")
-                .build();
+        FacebookConfig config = new FacebookConfig();
+        config.setAppId("appId");
+        config.setTokenApp("tokenApp");
+        config.setTokenPage("tokenPage");
 
         var op = new GetVideoOperation(buildWebClient(), config);
         op.setBaseURL4Test(getBaseURL());

@@ -17,7 +17,7 @@ import java.util.regex.Pattern;
 public abstract class AbstractOperation<E> {
 
 
-    protected String baseURL = "https://graph.facebook.com/v15.0";
+    protected String baseURL = "https://graph.facebook.com/v21.0";
     protected final Map<String, String> BASIC_OPTIONS = Map.of(
             "format", "json",
             "method", "get",

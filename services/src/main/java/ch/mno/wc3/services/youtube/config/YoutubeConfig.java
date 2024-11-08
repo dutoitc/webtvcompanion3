@@ -1,18 +1,16 @@
 package ch.mno.wc3.services.youtube.config;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
 @ConfigurationProperties(prefix = "youtube")
 @Getter
-@Builder
+@Setter
 @AllArgsConstructor // Needed by Builder
 @NoArgsConstructor // Needed by ConfigurationProperties
+@Builder
 public class YoutubeConfig {
 
     private String chanelId;

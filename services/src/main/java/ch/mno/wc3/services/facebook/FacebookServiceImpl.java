@@ -22,6 +22,11 @@ public class FacebookServiceImpl {
         return new GetVideoOperation(webClient, config).execute();
     }
 
+
+    public int getReelViews(String reelId) {
+        return new GetReelViewsOperation(webClient, config.getTokenPage(), reelId).execute();
+    }
+
     public int getVideoViews(String videoId) {
         return new GetVideoViewsOperation(webClient, config.getTokenPage(), videoId).execute();
     }

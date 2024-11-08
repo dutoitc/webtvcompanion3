@@ -32,10 +32,14 @@ public class GetVideoViewsOperation extends AbstractOperation<Integer> {
 
     @Override
     public Integer execute() {
-        String json = download(buildUrl());;
+        String json = download(buildUrl());
 
         JsonNode rootNode = parseJson(json);
-        JsonNode valueNode = rootNode.path("data").get(0).path("values").get(0).path("value");
+        JsonNode data = rootNode.path("data");
+        if (data==null || data.get(0)==null || data.get(0).isEmpty()) {
+            throw new ServiceException("No 'data' found in JSON: " + json);
+        }
+        JsonNode valueNode = data.get(0).path("values").get(0).path("value");
         if (valueNode.isInt()) {
             return valueNode.asInt();
         } else {

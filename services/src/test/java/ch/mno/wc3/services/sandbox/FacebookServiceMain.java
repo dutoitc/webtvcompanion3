@@ -10,13 +10,15 @@ public class FacebookServiceMain {
 
 
     public static void main(String[] args) throws IOException, InterruptedException {
-        var config = FacebookConfig.builder()
-                .appId("webtvnordvaudois")
-                .tokenApp("EABJ2om8HpxgBOwZBKaNZCkZBZCsWgWxO5Xs171kLsqIIDNGcjEPscuuODoxgZBZCbybDFTZBFpxYZCn7tsmB0w2l3TPgTaacD2imU9UDAXBi4nGJAq8JGcDCusOIQl5SR1XdW6bxz7PmB48dHHvzaZAYmn3aeqxEJPuWiWtROl3L3OFxZAMj0X0gZDZD")
-                .tokenPage("EABJ2om8HpxgBOwqiiM4vDZBQZCEupfhm6Euu2qRdOPdTW0zex3Vz3jHVlEa2Cf4DjqJ3jFP8IZBgZBCLktrCwpKvgciDpK9LyayJKEZAm8BZCefrjQLtCEFAao5HdOCQqlvMllADb0orms6FISGZAXLZAZCZATKsYRtWjCNwkDPeOeIUzAkf911lzqrleg")
-                .build();
+        var config = new  FacebookConfig();
+        config.setAppId("webtvnordvaudois");
+        config.setTokenApp("EABJ2om8HpxgBOwZBKaNZCkZBZCsWgWxO5Xs171kLsqIIDNGcjEPscuuODoxgZBZCbybDFTZBFpxYZCn7tsmB0w2l3TPgTaacD2imU9UDAXBi4nGJAq8JGcDCusOIQl5SR1XdW6bxz7PmB48dHHvzaZAYmn3aeqxEJPuWiWtROl3L3OFxZAMj0X0gZDZD");
+        config.setTokenPage("EABJ2om8HpxgBOwqiiM4vDZBQZCEupfhm6Euu2qRdOPdTW0zex3Vz3jHVlEa2Cf4DjqJ3jFP8IZBgZBCLktrCwpKvgciDpK9LyayJKEZAm8BZCefrjQLtCEFAao5HdOCQqlvMllADb0orms6FISGZAXLZAZCZATKsYRtWjCNwkDPeOeIUzAkf911lzqrleg");
 
         var service = new FacebookServiceImpl(WebClient.builder().build(), config);
+
+        System.out.println(service.getReelViews("908772733999723"));
+
         //service.getVideos().dump();
         //System.out.println(service.getVideoViews("1669578873436310"));
         //service.getVideoInsights("1669578873436310");

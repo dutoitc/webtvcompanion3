@@ -1,0 +1,68 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "fm3RMp-7n_7s6O_CdR6rgViABs4",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "QAFuDlGIcflEfONrQNwLByx9ng",
+      "id": "POi1FEq3Wm4",
+      "snippet": {
+        "publishedAt": "2023-09-15T09:00:16Z",
+        "channelId": "UCDnjHbgMrC0PMskH_4B0Dlw",
+        "title": "T'es d'Orbe: les secrets du groupe",
+        "description": "T'es d'Orbe est un groupe Facebook comme il en existe beaucoup, mais qui se cache derrière le travail important pour gérer ce média ? rencontre pour découvrir quelques secrets.\n#tesdorbesi #capstv.ch #webtvdunordvaudois #facebook #orbe #media #media #facebook",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/POi1FEqsxm4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/POi1FEqsxm4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/POi1FEqsxm4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/POi1FEqsxm4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "CAPStv",
+        "categoryId": "19",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "fr-CH",
+        "localized": {
+          "title": "T'es d'Orbe: les secrets du groupe",
+          "description": "T'es d'Orbe est un groupe Facebook comme il en existe beaucoup, mais qui se cache derrière le travail important pour gérer ce média ? rencontre pour découvrir quelques secrets.\n#tesdorbesi #capstv.ch #webtvdunordvaudois #facebook #orbe #media #media #facebook"
+        },
+        "defaultAudioLanguage": "fr"
+      },
+      "status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "public",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "statistics": {
+        "viewCount": "113",
+        "likeCount": "6",
+        "dislikeCount": "1",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
