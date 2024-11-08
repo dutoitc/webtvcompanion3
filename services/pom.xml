@@ -4,12 +4,11 @@
     <parent>
         <groupId>ch.mno.webtvcompanion3</groupId>
         <artifactId>parent</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>services</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>services</name>
     <description>Services</description>
